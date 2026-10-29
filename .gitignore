@@ -1,0 +1,29 @@
+# Binaries and compiled outputs
+build/bin/
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Frontend build artifacts
+frontend/dist/
+dist/
+
+# Wails
+.wails/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+*.tmp
+*.env

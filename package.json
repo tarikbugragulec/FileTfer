@@ -1,0 +1,12 @@
+{
+  "name": "filetfer-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FileTfer Modern Desktop FTP & SFTP Client",
+  "scripts": {
+    "build": "wails build",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev": "wails dev",
+    "start": "cmd /c start \"\" build\\bin\\FileTfer.exe"
+  }
+}
